@@ -1,0 +1,68 @@
+
+.container{
+    
+    border: 1px solid purple;
+    width: 700px;
+    height: 700px;
+    align-items: center;
+}
+
+.ndcon{
+    width: 400px;
+    border: 1px solid red;
+    padding: 50px;
+}
+.div2 input {
+    
+
+    /* background-color: purple; */
+}
+
+.divbody {
+    text-align: center;
+}
+
+body {
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 400px;
+
+}
+
+input { width: 300px;
+    /* background-color: rgb(235, 229, 229); */
+    margin-top: 10px;
+    background-color:whitesmoke
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.yesno{
+    border: 1px solid green ;
+display: flex;
+width: 250px;
+justify-content: space-evenly;
+align-items: center;
+flex: 1;
+
+
+}
+button{
+    background-color: purple;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    
+}
+.request input{
+    width: 300px;
+    height: 60px;
+}

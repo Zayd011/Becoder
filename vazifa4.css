@@ -1,0 +1,88 @@
+.dcontainer{
+    /* height: 500px; */
+     /* width: 400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    background-color: brown;
+    
+
+    
+}
+.ndcon{
+    margin: 50px 0;
+    border: 1px solid rgb(145, 22, 6);
+    background-color: rgba(131, 26, 12, 0.877);
+    height: 500px;
+    width: 500px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 60px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 5px;
+
+}
+.wrapper input{
+    width: 250px;
+}
+button{ 
+text-align: center;
+    color:black;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    border:1px solid white;
+    background-color: white;
+    width: 400px;
+    height: 35px
+}
+label{
+    color: aliceblue;
+}
+.reg{ 
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+    justify-content: center;
+
+    
+   
+    
+}
+.lang{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+input{
+    margin-top: 5px;
+    margin-left: 4px;
+    height: 30px;
+     border: 1px solid silver;
+     border-radius: 5px;
+}
+.gender{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.genderWrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+
+}
+.genderWrap input{
+    cursor: pointer;
+}

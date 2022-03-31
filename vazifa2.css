@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.wrapper{
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+    
+}
+.ls{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+    background-color: rgb(230, 116, 154);
+}
